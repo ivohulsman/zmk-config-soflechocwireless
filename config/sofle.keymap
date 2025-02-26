@@ -80,7 +80,9 @@
                    &kp LEFT_CONTROL  &kp LEFT_META  &kp LEFT_ALT  &mo 1   &kp SPACE     &kp RET            &mo 2   &kp MINUS  &kp EQUAL  &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
